@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-abstrato-preto-pontos-brancos-em-um-fundo-preto_73152-5632.jpg?w=740);
 }
 
 .fotos-header{
@@ -9,4 +9,44 @@ body{
     border: 4px solid beige;
 }
 
-.f1{}
+.tisub{
+    color: white;
+    text-align: center;
+}
+
+.Texto-B{
+    border: 4px solid beige;
+    margin: 100px;
+    text-align: center;
+    display: bloc;
+}
+
+.imgp1{
+    border-radius: 20%;
+    width: 40%;
+}
+
+.imgp2{
+    border-radius: 40px;
+    width: 40%;
+}
+
+.pmain{
+    display: block;
+    font-size: larger;
+    color: white;
+    text-align: justify;
+    margin: 50px;
+}
+
+.footer{
+    text-align: center;
+    border: 4px solid beige;
+}
+
+li{
+    display: inline;
+    font-size: larger;
+    font: bold;
+    margin: 90px;
+}
