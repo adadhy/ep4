@@ -1,5 +1,14 @@
 body{
     background-image: url(https://img.freepik.com/fotos-premium/fundo-abstrato-preto-pontos-brancos-em-um-fundo-preto_73152-5632.jpg?w=740);
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "price price price"
+    "pe pe pe";
+}
+
+.cabeca{
+    grid-area: cabe;
 }
 
 .fotos-header{
@@ -7,6 +16,10 @@ body{
     display: flex;
     border-radius: 20px;
     border: 4px solid beige;
+}
+
+.prince{
+    grid-area: prici;
 }
 
 .tisub{
@@ -49,4 +62,25 @@ li{
     font-size: larger;
     font: bold;
     margin: 90px;
+}
+
+
+.textoN{
+    display: block;
+    font-size: larger;
+    color: white;
+    text-align: justify;
+    margin: 50px;
+    border: 4px solid beige;
+    padding: 20px;
+}
+
+.fotoN{
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 20px;
+}
+
+.footer{
+    grid-area: pe;
 }
